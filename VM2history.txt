@@ -1,0 +1,51 @@
+ 1  sudo useradd nagios
+    2  sudo apt update
+    3  sudo apt install autoconf gcc libmcrypt-dev make libssl-dev wget dc build-essential gettext
+    4  cd ~
+    5  curl -L -O https://nagios-plugins.org/download/nagios-plugins-2.2.1.tar.gz
+    6  tar zxf nagios-plugins-2.2.1.tar.gz
+    7  cd nagios-plugins-2.2.1
+    8  ./configure
+    9  make
+   10  sudo make install
+   11  cd ~
+   12  curl -L -O https://github.com/NagiosEnterprises/nrpe/releases/download/nrpe-3.2.1/nrpe-3.2.1.tar.gz
+   13  tar zxf nrpe-3.2.1.tar.gz
+   14  cd nrpe-3.2.1
+   15  ./configure
+   16  make nrpe
+   17  sudo make install-daemon
+   18  sudo make install-config
+   19  sudo make install-init
+   20  df -h/
+   21  df -h /
+   22  sudo nano /usr/local/nagios/etc/nrpe.cfg
+   23  df -h /
+   24  cd ~
+   25  df -h /
+   26  cd nrpe-3.2.1
+   27  sudo nano /usr/local/nagios/etc/nrpe.cfg
+   28  nano VM1history.txt
+   29  ip addr show eth0 | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'
+   30  cdm~
+   31  cd ~
+   32  ip addr show eth0 | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'
+   33  history
+   34  nano VM2history.txt
+   35  exit
+   36  sudo nano /usr/local/nagios/etc/nrpe.cfg
+   37  cd nrpe-3.2.1
+   38  sudo nano /usr/local/nagios/etc/nrpe.cfg
+   39  sudo systemctl start nrpe.service
+   40  sudo systemctl status nrpe.service
+   41  sudo ufw allow 5666/tcp
+   42  sudo systemctl status nrpe.service
+   43  /usr/local/nagios/libexec/check_nrpe -H second_ubuntu_server_ip
+   44  /usr/local/nagios/libexec/check_nrpe -H 192.168.1.199
+   45  sudo nano /usr/local/nagios/etc/nrpe.cfg
+   46  sudo systemctl start nrpe.service
+   47  sudo systemctl status nrpe.service
+   48  cd ~
+   49  sudo systemctl status nrpe.service
+   50  logout
+   51  history
