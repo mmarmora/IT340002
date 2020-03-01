@@ -1,0 +1,43 @@
+ sudo apt update
+    2  sudo apt install apache2
+    3  sudo ufw app list
+    4  # ufw allow OpenSSH
+    5  # ufw enable
+    6  # ufw status
+    7  ufw enable
+    8  sudo ufw app info "Apacha Full"
+    9  sudo ufw app info "Apache Full"
+   10  sudo ufw allow in "Apache Full"
+   11  ip addr show eth0 | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'
+   12  sudo apt install mysql-server
+   13  sudo mysql_secure_installation
+   14  ALTER USER 'root'@'localhost' IEDNTIFIED WITH mysql_native_password BY 'password
+'
+   15  sudo mysql
+   16  sudo apt install php libapache2-mod-php php-mysql
+   17  sudo nano /etc/apache2/mods-enabled/dir.conf
+   18  systemct1 restart apache2
+   19  sudo systemct1 restart apache2
+   20  sudo systemctl restart apache2
+   21  sudo apt update
+   22  sudo apt install autoconf gcc make unzip libgd-dev libmcrypt-dev libssl-dev dc snmp libnet-snmp-perl gettext
+   23  cd ~
+   24  curl -L -O https://github.com/NagiosEnterprises/nagioscore/archive/nagios-4.4.4.tar.gz
+   25  tar zxf nagios-4.4.4.tar.gz
+   26  cd nagioscore-nagios-4.4.4
+   27  ./configure --with-httpd-conf=/etc/apache2/sites-enabled
+   28  make all
+   29  sudo make install-groups-users
+   30  sudo make install
+   31  sudo make install-daemoninit
+   32  sudo make install-commandmode
+   33  sudo make install-config
+   34  sudo make install-webconf
+   35  sudo a2enmod rewrite
+   36  sudo a2enmod cgi
+   37  sudo usermod -a -G nagios www-data
+   38  sudo htpasswd -c /usr/local/nagios/etc/htpasswd.users nagiosadmin
+   39  sudo systemct1 restart apache2
+   40  sudo systemctl restart apache2
+   41  cd ~
+
