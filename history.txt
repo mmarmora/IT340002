@@ -1,0 +1,368 @@
+ 1  cd Desktop
+    2  python3 hello.py
+    3  cd -
+    4  cd Documents
+    5  ls
+    6  cd -
+    7  rm hello.py
+    8  cd Desktop
+    9  rm hello.py
+   10  cd -
+   11  cd Documents
+   12  ls
+   13  python3 HW_MariaMarmora.py 
+   14  python3 HW_MariaMarmora.py 
+   15  python3 HW_MariaMarmora.py 
+   16  python3 HW_MariaMarmora.py 
+   17  python3 HW_MariaMarmora.py 
+   18  python3 HW_MariaMarmora.py 
+   19  ifconfig
+   20  grades =  ['A', 'B', 'C', 'F', 'B', 'B', 'D', 'C', 'D', 'B']
+   21  frequency(grade)
+   22  freq[0]=grades.count('A')
+   23  freq[1]=grades.count('B')
+   24  freq[3]=grades.count('C')
+   25  freq[4]=grades.count('D')
+   26  freq[5]=grades.count('F')
+   27  print (freq)
+   28  ssh mm2352@16 
+   29  ssh mm2352@afs16.njit.edu 
+   30  maria@localhost
+   31  ssh maria@localhost
+   32  ssh -u maria localhost
+   33  ssh maria@localhost
+   34  ssh -u maria localhost
+   35  ssh -u maria localhost
+   36  ssh maria@localhost
+   37  ssh maria@localhost
+   38  ssh -u maria localhost
+   39  ssh maria@localhost
+   40  ssh maria@localhost
+   41  ssh maria@localhost
+   42  ssh maria@localhost
+   43  ssh maria@localhost
+   44  ssh maria@localhost
+   45  ssh maria@localhost
+   46  ssh maria@localhost
+   47  ssh maria@localhost
+   48  ssh maria@localhost
+   49  ssh maria@localhost
+   50  ssh maria@localhost
+   51  ssh maria@localhost
+   52  ssh maria@localhost
+   53  ssh maria@localhost
+   54  ssh maria@localhost
+   55  ssh maria@localhost
+   56  ssh maria@localhost
+   57  ssh maria@localhost
+   58  ssh maria@localhost
+   59  ssh maria@localhost
+   60  ssh maria@localhost
+   61  ssh maria@localhost
+   62  ssh maria@localhost
+   63  ssh maria@localhost
+   64  ssh maria@localhost
+   65  ssh maria@localhost
+   66  vagrant
+   67  mkdir vagrant_getting_started
+   68  cd vagrant_getting_started
+   69  vagrant init hashicorp/bionic64
+   70  vagrant up
+   71  vagrant ssh
+   72  vagrant ssh
+   73  vagrant ssh
+   74  vagrant ssh
+   75  mk dir VMstuff
+   76  mkdir VMstuff
+   77  ls
+   78  vagrant init "bento/ubuntu-18.04"
+   79  vagrant box list
+   80  pwd
+   81  cd VMstuff
+   82  vagrant init "bento/ubuntu-18.04"
+   83  .\Vagrantfile
+   84  nano .\Vagrantfile
+   85  vagrant up
+   86  nano .\Vagrantfile
+   87  nano .\Vagrantfile
+   88  cd $HOME
+   89  nano .\Vagrantfile
+   90  nano .\Vagrantfile
+   91  nano .\\Vagrantfile
+   92  nano ./Vagrantfile
+   93  vagrant up
+   94  nano ./Vagrantfile
+   95  mkdir data
+   96  vagrant up
+   97  vagrant reload
+   98  vagrant box add "bento/ubuntu-18.04"
+   99  vagrant ssh
+  100  vagrant destroy
+  101  vagrant up
+  102  cd vmstuff
+  103  cd vagrantlab
+  104  vagrant up
+  105  vagrant ssh
+  106  pwd
+  107  ls
+  108  cd ./
+  109  pwd
+  110  cd Labvagrant
+  111  vagrant up
+  112  ls
+  113  vagrant destroy
+  114  vagrant up
+  115  cd VMstuff
+  116  vagrant up
+  117  cd vagrantlab
+  118  vagrant up
+  119  vagrant ssh
+  120  cd $HOME
+  121  cd vmstuff
+  122  cd vagrantlab
+  123  cd vmstuff
+  124  cd Lab1
+  125  ls
+  126  vagrant up
+  127  vagrant ssh
+  128  cd vagrantlab
+  129  cd vmstuff
+  130  cd VMstuff
+  131  vagrant up
+  132  vagrant up
+  133  vagrant ssh
+  134  find . -type f -name ".txt"
+  135  ls
+  136  cd /etc
+  137  find . -type f -name ".txt"
+  138  cd /media
+  139  cd /usr
+  140  find . -type f -name ".txt"
+  141  cd vmstuff
+  142  cd $HOME
+  143  cd vmstuff
+  144  cd Lab1
+  145  vagrant up
+  146  vagrant destroy
+  147  ls
+  148  vagrant up
+  149  find -name file
+  150  find . -type f "*.txt"
+  151  find . -type f -name "*.txt"
+  152  vagrant ssh
+  153  vagrant destroy
+  154  cd vmstuff
+  155  cd lab1
+  156  vagrant up
+  157  vagrant destroy
+  158  cd Lab3
+  159  cd Lab2
+  160  ls
+  161  nano Vagrantfile.dms
+  162  cd lab3
+  163  cd lab3
+  164  cd lab2
+  165  ls
+  166  nano vagrantfile.dms
+  167  nano vagrantfile(1).dms
+  168  nano vagrantfile(1).ds
+  169  nano vagrantfile(1).dms
+  170  nano Vagrantfile(1).dms
+  171  nano vagrantfilee.dms
+  172  nano vagrantfile.dms
+  173  vagrant pu
+  174  vagrant up
+  175  nano vagrantfile.dms
+  176  vagrant up
+  177  nano vagrantfile.dms
+  178  vagrant up --provider=libvirt
+  179  vagrant up
+  180  vagrant up--provider=virtualbox
+  181  vagrant up --provider=virtualbox
+  182  nano vagrantfile.dms
+  183  vagrant box add bento/ubuntu-18.04
+  184  nano vagrantfile.dms
+  185  vagrant up
+  186  nano vagrantfile.dms
+  187  vagrant up
+  188  nano /Users/mariamarmora/Lab2/base
+  189  nano vagrantfile.dms
+  190  vagrant up
+  191  nano vagrantfile.dms
+  192  vagrant up
+  193  clear
+  194  vagrant up
+  195  nano vagrantfile.dms
+  196  nano vagrantfile
+  197  nano vagrantfile.dms
+  198  nano vagrantfile
+  199  vagrant up
+  200  nano vagrantfile
+  201  vagrant up
+  202  nano vagrantfile
+  203  vagrant up
+  204  nano vagrantfile
+  205  vagrant up
+  206  nano vagrantfile
+  207  vagrant up
+  208  nano vagrantfile
+  209  -w
+  210  nano vagrantfile
+  211  vagrant up
+  212  nano vagrantfile
+  213  vagrant up
+  214  nano vagrantfile
+  215  vagrant up
+  216  nano vagrantfile
+  217  vagrant up
+  218  nano vagrantfile
+  219  vagrant up
+  220  nano vagrantfile
+  221  vagrant up
+  222  nano vagrantfile
+  223  vagrant up
+  224  nano vagrantfile
+  225  vagrant up
+  226  nano vagrantfile
+  227  nano vagrantfile
+  228  vagrant up
+  229  nano vagrantfile
+  230  vagrant up
+  231  nano vagrantfile
+  232  vagrant up
+  233  nano vagrantfile
+  234  vagrant up
+  235  nano vagrantfile
+  236  vagrant up
+  237  clear
+  238  nano vagrantfile
+  239  vagrant up
+  240  nano vagrantup
+  241  nano vagrantfile
+  242  vagrant up
+  243  nano vagrantup
+  244  nano vagrantfile
+  245  vagrant up
+  246  nano vagrantfile
+  247  vagrant up
+  248  nano vagrantfile
+  249  vagrant up
+  250  nano vagrantfile
+  251  vagrant up
+  252  nano vagrantfile
+  253  vagrant up
+  254  nano vagrant up
+  255  nano vagrantfile
+  256  vagrant up
+  257  nano vagrantfile
+  258  vagrant up
+  259  nano vagrantfile
+  260  vagrant up
+  261  sudo apt update
+  262  sudo apt install apache2
+  263  ssh maria@test_1
+  264  ssh maria@test_1
+  265  history
+  266  vagrant ssh test_1
+  267  vagrant up
+  268  cd lab2
+  269  vagrant up
+  270  vagrant ssh test_1
+  271  vagrant ssh test_2
+  272  vagrant ssh test_2
+  273  ssh maria@192.168.1.199
+  274  ssh vagrant@192.168.1.199
+  275  ssh vagrant@test_1
+  276  ssh vagrant@192.168.1.203
+  277  ssh vagrant@192.168.1.199
+  278  ssh vagrant@test_2
+  279  ssh vagrant@192.168.1.199
+  280  ssh vagrant@192.168.1.199
+  281  ls
+  282  cd Vagrantfile
+  283  nano Vagrantfile
+  284  logout
+  285  ssh maria@localhost
+  286  ls
+  287  cd vagrantfile
+  288  ls
+  289  vagrant up
+  290  vagrant up
+  291  vagrant up
+  292  vagrant init
+  293  vagrant up
+  294  cd vagrantfile
+  295  vagrant up
+  296  $HOME
+  297  cd lab2
+  298  ls
+  299  cd Lab2
+  300  cd $HOME
+  301  cd Lab2
+  302  ls
+  303  nano Vagrantfile.dms
+  304  cd $HOME
+  305  cd vagrantfile
+  306  ls
+  307  nano Vagrantfile.dmns
+  308  nano Vagrantfile.dms
+  309  vagrant up
+  310  vagrant up
+  311  nano Vagrantfile.dms
+  312  nano Vagrantfile.dms
+  313  vagrant up
+  314  nano Vagrantfile.dms
+  315  vagrant up
+  316  vagrant up
+  317  vagrant up
+  318  vagrant ssh
+  319  vagrant init
+  320  ls
+  321  vagrant up
+  322  cd vagrantfile
+  323  ls
+  324  vagrant up test_1
+  325  vagrant init
+  326  vagrant up test_1
+  327  vagrant up VMstuff_default_1581964181014_13612
+  328  vagrant up
+  329  nano vagrantfile.dms
+  330  vagrant up RsysServer
+  331  nano vagrantfile.dms
+  332  vagrant up rc
+  333  nano vagrant file
+  334  nano vagrantfile.dms
+  335  vagrant up 
+  336  cd midterm
+  337  $HOME
+  338  cd midterm
+  339  cd midterm
+  340  vagrant up
+  341  vagrant init
+  342  nano Vagrantfile-2.dms
+  343  nano Vagrantfile
+  344  vagrant up
+  345  nano Vagrantfile-2.dms
+  346  nano Vagrantfile
+  347  vagrant up
+  348  nano Vagrantfile-2.dms
+  349  nano Vagrantfile
+  350  nano Vagrantfile-dms
+  351  nano Vagrantfile-2.dms
+  352  nano Vagrantfile
+  353  vagrant up
+  354  nano Vagrantfile-2.dms
+  355  nano Vagrantfile
+  356  vagrant up
+  357  nano Vagrantfile-2.dms
+  358  nano Vagrantfile
+  359  vagrant up
+  360  cd $HOME
+  361  cd vagrant
+  362  cd /home/vagrant/instructions.txt
+  363  vagrant ssh
+  364  vagrant ssh midterm_app_1583773849502_37993
+  365  cd vagrant
+  366  cd midterm
+  367  vagrant ssh
+  368  history
