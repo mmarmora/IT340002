@@ -1,0 +1,68 @@
+1  ls
+    2  cd /usr
+    3  ls
+    4  cd $HOME
+    5  cd /etc
+    6  ls
+    7  cd $HOME
+    8  ls
+    9  cd /usr/share
+   10  ls
+   11  cd $HOME
+   12  cd /var
+   13  ls
+   14  cd $HOME
+   15  ls
+   16  cd /media
+   17  ls
+   18  cd $HOME
+   19  cd /etc
+   20  ls
+   21  cd $HOME
+   22  find ./GFG -name *.txt
+   23  $ find ./GFG -name *.txt
+   24  find ./home -name *.txt
+   25  pwd
+   26  find ./home/vagrant -name *.txt
+   27  pwd
+   28  find /home/vagrant -name *.txt
+   29  cd /usr
+    ls
+   31  find /home/vagrant -name *.txt
+   32  cd $HOME
+   33  cd /etc
+   34  ls
+   35  find /home/vagrant -name *.txt
+   36  cd $HOME
+   37  logout
+   38  ls
+   39  find . -type f -mtime -30 -ls
+   40  find . -type f -mtime -1 -ls
+   41  cd /media
+   42  ls
+   43  cd cdrom
+   44  ls
+   45  cd ../
+   46  ls
+   47  find . -type f -mtime -1 -ls
+   48  cd $home
+   49  cd /etc
+   50  ls
+   51  find . -type f -mtime -1 -ls
+   52  cd ../
+   53  find . -type f -mtime -30 -ls
+   54  sudo find / -type f -newermt 2020-03-27 | grep .txt
+   55  sudo find / -type f -newermt 2020-03-27 | grep *.txt
+   56  cd var
+   57  cd www
+   58  ls
+   59  cd /var/www
+   60  sudo find *intro3.txt
+   61  cd $home
+   62  sudo find / -type f -newermt 2020-03-27 | grep.txt
+   63  sudo find / -type f -newermt 2020-03-27 | grep .txt
+   64  find . -name something.txt
+   65  find . -name intro3.txt
+   66  mkdir Lab1
+   67  ls
+   68  history > history.txt
