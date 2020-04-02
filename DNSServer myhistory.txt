@@ -1,0 +1,30 @@
+    1  sudo apt install -y bind9 bind9utils bind9-doc dnsutils
+    2  ifconfig
+    3  nano myip
+    4  cat myip
+    5  sudo nano /etc/bind/named.conf.local
+    6  sudo cp /etc/bind/db.local /etc/bind/forward.hostname.local.db
+    7  sudo cp /etc/bind/db.local /etc/bind/forward.it340.local.db
+    8  sudo nano /etc/bind/forward.it340.local.db
+    9  sudo cp /etc/bind/db.local /etc/bind/forward.hostname.local.db
+   10  sudo nano /etc/bind/named.conf.local
+   11  cat myip
+   12  sudo nano /etc/bind/named.conf.local
+   13  sudo nano /etc/bind/forward.hostname.local.db
+   14  sudo nano /etc/bind/forward.it340.local.db
+   15  cat myip
+   16  ifconfig
+   17  sudo nano /etc/bind/forward.it340.local.db
+   18  sudo cp /etc/bind/db.127 /etc/bind/reverse.it340.local.db
+   19  sudo nano /etc/bind/reverse.it340.local.db
+   20  sudo named-checkconf
+   21  sudo named-checkzone it340.local
+   22  sudo named-checkzone it340.local /etc/bind/forward.it340.local.db
+   23  named-checkzone 1.168.192.in-addr.arpa /etc/bind/reverse.it340.local.db
+   24  sudo systemctl restart bind9
+   25  sudo systemctl enable bind9
+   26  sudo systemctl status bind9
+   27  exit
+   28  history
+   29  history > myhistory.txt
+
