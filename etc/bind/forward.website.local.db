@@ -25,7 +25,7 @@ website.local. IN MX 10 mail.website.local.
 ;A – Record HostName To Ip Address
 
 www IN A 192.168.1.194
-mail IN A 192.168.1.239
+mail IN A 192.168.1.230
 
 ;CNAME record
 
