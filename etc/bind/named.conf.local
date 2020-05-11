@@ -1,0 +1,28 @@
+
+//
+// Do any local configuration here
+//
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+
+zone "website.local" IN { // Domain name
+
+type master; // Primary DNS
+
+file "/etc/bind/forward.website.local.db"; // Forward lookup file
+
+allow-update { none; }; // Since this is the primary DNS, it should be none.
+
+};
+
+zone "1.168.192.in-addr.arpa" IN { //Reverse lookup name, should match your network in reverse order
+
+type master; // Primary DNS
+
+file "/etc/bind/reverse.website.local.db"; //Reverse lookup file
+
+allow-update { none; }; //Since this is the primary DNS, it should be none.
+
+};
