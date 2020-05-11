@@ -1,0 +1,21 @@
+sudo apt install -y bind9 bind9utils bind9-doc dnsutils
+sudo nano /etc/bind/named.conf.local
+ifconfig
+sudo nano /etc/bind/named.conf.local
+ifconfig
+sudo nano /etc/bind/named.conf.local
+sudo cp /etc/bind/db.local /etc/bind/forward.hostname.local.db
+sudo nano /etc/bind/forward.hostname.local.db
+sudo nano /etc/bind/forward.website.local.db
+sudo cp /etc/bind/db.127 /etc/bind/reverse.hostname.local.db
+sudo cp /etc/bind/db.127 /etc/bind/reverse.website.local.db
+sudo nano /etc/bind/reverse.hostname.local.db
+sudo nano /etc/bind/reverse.website.local.db
+sudo named-checkconf
+sudo named-checkzone hostname.local /etc/bind/forward.hostname.local.db
+sudo named-checkzone website.local /etc/bind/forward.website.local.db
+named-checkzone 1.168.192.in-addr.arpa/etc/bind/reverse.website.local.db
+sudo systemctl restart bind9
+sudo systemctl enable bind9
+sudo systemctl status bind9
+history > history.txt
